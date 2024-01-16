@@ -19,11 +19,11 @@
 <br/>
 <br/>
 
-## 아키텍쳐 설명. <br/>
+## 아키텍쳐 설명.
+<br/>
 <img width="631" alt="image" src="https://github.com/junyoungparkdev/yeardreamstock-team05/assets/132217286/9099e591-9211-4bd1-b1d8-4945db0cf8e7">
 <br/>
 <br/>
-
 1. 증권사 api를 통하여 국내 상장 주식의 5분봉 데이터와 함께 뉴스 데이터를 kafka로 전송합니다. <br/>
 2. kafka로부터 hadoop으로 데이터를 전송하는 작업, 백업db인 mysql,hbase로의 데이터 전송, 모델 테스트를 airflow dag으로 관리합니다. <br/>
 3. 최종 대시보드 형태는 flask 웹 어플리케이션으로 구현합니다. <br/>
@@ -31,7 +31,6 @@
 5. 이미지 빌드를 통하여 아키텍쳐를 구축했습니다.<br/>
 <br/>
 <br/>
-
 
 
 
